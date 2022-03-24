@@ -1,0 +1,65 @@
+/* -------------------------- */
+/*     #RESETS                */
+/* -------------------------- */
+
+/* Box sizing  */
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.65;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+}
+
+img,
+picture {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* A11y */
+
+@media screen and (prefers-reduced-motion: reduce) {
+    *,
+    *::after,
+    *::before {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
