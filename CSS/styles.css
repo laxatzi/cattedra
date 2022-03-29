@@ -63,3 +63,33 @@ select {
         scroll-behavior: auto !important;
     }
 }
+
+/* -------------------------- */
+/*     #UTILITY CLASSES        */
+/* -------------------------- */
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 80rem;
+}
+
+.sr-only {
+    clip-path: inset(100%);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
