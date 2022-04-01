@@ -93,3 +93,9 @@ select {
     white-space: nowrap;
     width: 1px;
 }
+
+/* test  */
+.box {
+    background-color: blue;
+    padding: 1em 3em;
+}
