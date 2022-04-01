@@ -96,6 +96,7 @@ select {
 
 /* test  */
 .box {
-    background-color: blue;
+    background-color: lightblue;
     padding: 1em 3em;
+    font-size: 2rem;
 }
